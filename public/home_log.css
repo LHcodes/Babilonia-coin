@@ -1,0 +1,49 @@
+div h1{
+    color: rgb(60, 59, 59);
+}
+.home_log{
+    display: flex;
+    flex-direction: column;
+
+    width: calc(100% + 50%);
+    margin-top: 20px;
+
+    background-color: rgba(128, 128, 128, 0.307);
+    border-radius: 5px;
+}
+.home_log > #saldo{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    background-color: rgba(255, 255, 0, 0.092);
+    
+    
+    margin-top: 10px;
+
+}
+#saldo p{
+    background-color: rgba(4, 187, 4, 0.214);
+    color: green;
+}
+p{
+    font-size: 1.5em;
+}
+.home_log > #projetos{
+    margin-top: 2.5em;
+}
+.home_log > #projetos div{
+    display: flex;
+}
+
+#projetos{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#projetos > div {
+    display: flex;
+    flex-direction: column;
+}
+

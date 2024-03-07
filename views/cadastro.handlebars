@@ -1,0 +1,28 @@
+<head>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+<div class="main" id="main_cadastro">
+    <h1>Cadastro</h1>
+    <form action="/cadastro/cadastrar" method="post">
+        <div>
+            <label for="nome">Nome: </label>
+            <p><input type="text" placeholder="Digite seu nome" name="nome" id="nome" ></p>
+        </div>
+        <div>
+            <label for="sal">Salário mensal: </label>
+            <p><input type="number" id="salario" name="sal" ></p>
+        </div>
+        <div>
+            <label for="div">Total em dividas: </label>
+            <p><input type="number" id="dividas" name="div"  value="0"></p>
+        </div>
+        <div>
+            <label for="inv">Total investimento: </label>
+            <p><input type="number" id="inv" name="inv"></p>
+        </div>
+        
+        <input type="submit" value="Cadastrar">
+    </form>
+</div>
